@@ -6,14 +6,9 @@
 }
 
 @keyframes redes_sociais_animado {
-  0% {
-    position: absolute;
-    right: -100px;
-  }
-  100% {
-    position: absolute;
-    right: 35px;
-  }
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 @keyframes titulo_animado {
@@ -44,4 +39,9 @@
   100% {
     opacity: 1;
   }
+}
+
+@keyframes botao_github_animado {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
