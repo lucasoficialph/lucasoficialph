@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --cor_rosa: rgb(254,116,157);
+  --cor_azul: rgb(53, 71, 135);
+  --cor_preto_tras: rgba(0, 0, 0, 0.623);
+  --cor_sinza: rgb(31, 31, 31);
+  --cor_branco: rgb(255, 255, 255);
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: linear-gradient(to bottom,var(--cor_rosa), var(--cor_azul));
+}
+
+main {
+  height: 900px;
+  width: 100vw;
+}
+
+/*  Header  */
+
+header {
+  background-color: var(--cor_preto_tras);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100vw;
+}
+
+header img {
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+  margin-left: 20px;
+  width: 50px;
+}
+
+/*  MENU  */
+
+menu > ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+menu > ul > li a {
+  border-bottom: 1px solid transparent;
+  color: var(--cor_branco);
+  font-weight: bold;
+  margin: 0px 5px;
+  text-shadow: 1px 1px 5px black;
+  padding: 5px 10px;
+}
+
+menu > ul > li a:hover {
+  border-bottom: 1px solid var(--cor_branco);
+  transition: 0.3s;
+}
+
+/*  corpo  */
+
+main {
+  width: 100vw;
+  height: 1200px;
+}
+
+/*  artigo_1  */
+.artigo_1 { 
+  background: url(img/sunset-mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 700px;
+  width: 100vw;
+}
+
+.redes {
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 175px;
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.432);
+  animation: redes_sociais_animado 3s normal;
+}
+
+.redes > a,
+img {
+  width: 35px;
+}
+
+@keyframes redes_sociais_animado {
+  0% {
+    right: -100px;
+  }
+  100% {
+    right: 35px;
+  }
+}
+
+.area_limite_h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100vw;
+  position: relative;
+  position: absolute;
+  top: 180px;
+  overflow: hidden;
+}
+
+.artigo_1 h1 {
+  color: var(--cor_branco);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.699);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  animation: titulo_animado 1.5s alternate ease-in-out;
+  transition: 0.3s;
+}
+
+.mouse_scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 50px;
+  height: 60px;
+  width: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.267);
+  border-radius: 10px;
+  backdrop-filter: blur(40px);
+  animation: mouse_scroll_opacit 4.2s normal;
+}
+
+.mouse_scroll img {
+  margin-top: 0px;
+  animation: mouse_scroll_animado 1s alternate infinite linear;
+}
+
+@keyframes titulo_animado {
+  0% {
+    top: 150%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+
+@keyframes mouse_scroll_animado {
+  0% {
+    margin-top: -25px;
+  }
+  100% {
+    margin-top: 25px;
+  }
+}
+
+@keyframes mouse_scroll_opacit {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*  artigo_2  */
+
+.artigo_2 {
+  background-color: var(--cor_azul);
+  width: 100vw;
+  height: 500px;
+}
+
+/*   RODAPE   */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.616);
+  width: 100vw;
+  height: 30px;
+}
+
+footer p {
+  color: var(--cor_branco);
+}
+
+@media screen and (max-width: 750px) {
+  .artigo_1 h1 {
+    font-size: 4em;
+  }
+}
