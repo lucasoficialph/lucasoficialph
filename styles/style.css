@@ -11,7 +11,7 @@
 }
 
 :root {
-  --cor_rosa: rgb(254,116,157);
+  --cor_rosa: rgb(254, 116, 157);
   --cor_azul: rgb(53, 71, 135);
   --cor_preto_tras: rgba(0, 0, 0, 0.623);
   --cor_sinza: rgb(31, 31, 31);
@@ -22,7 +22,11 @@ body {
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-  background-image: linear-gradient(to bottom,var(--cor_rosa), var(--cor_azul));
+  background-image: linear-gradient(
+    to bottom,
+    var(--cor_rosa),
+    var(--cor_azul)
+  );
 }
 
 main {
@@ -49,7 +53,7 @@ header img {
   width: 50px;
 }
 
-/*  MENU  */
+/*  Header-MENU  */
 
 menu > ul {
   display: flex;
@@ -71,20 +75,15 @@ menu > ul > li a:hover {
   transition: 0.3s;
 }
 
-/*  corpo  */
+/*  main  */
 
 main {
   width: 100vw;
   height: 1200px;
 }
 
-/*  artigo_1  */
-.artigo_1 { 
-  background: url(img/sunset-mountains.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-
+/*  main-artigo_1  */
+.artigo_1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,6 +91,11 @@ main {
   position: relative;
   height: 700px;
   width: 100vw;
+  background: url(../img/sunset-mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .redes {
@@ -113,15 +117,6 @@ main {
 .redes > a,
 img {
   width: 35px;
-}
-
-@keyframes redes_sociais_animado {
-  0% {
-    right: -100px;
-  }
-  100% {
-    right: 35px;
-  }
 }
 
 .area_limite_h1 {
@@ -171,36 +166,6 @@ img {
   animation: mouse_scroll_animado 1s alternate infinite linear;
 }
 
-@keyframes titulo_animado {
-  0% {
-    top: 150%;
-  }
-  100% {
-    top: 50%;
-  }
-}
-
-@keyframes mouse_scroll_animado {
-  0% {
-    margin-top: -25px;
-  }
-  100% {
-    margin-top: 25px;
-  }
-}
-
-@keyframes mouse_scroll_opacit {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 /*  artigo_2  */
 
 .artigo_2 {
@@ -222,10 +187,4 @@ footer {
 
 footer p {
   color: var(--cor_branco);
-}
-
-@media screen and (max-width: 750px) {
-  .artigo_1 h1 {
-    font-size: 4em;
-  }
 }
