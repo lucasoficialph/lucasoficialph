@@ -3,6 +3,7 @@
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=lucasoficialph&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center" style="display: inline-block"><br>
+  <img align="center" alt="Lucas-VsCode" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg">
   <img align="center" alt="Lucas-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Lucas-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Lucas-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -20,3 +21,4 @@
 
 
 <a><div align="center">![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lucasoficialph&show_icons=true&theme=react)</div></a>
+
