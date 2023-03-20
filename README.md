@@ -1,6 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=6D2CE0&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+My+name+is+Lucas+Gabriel;I'm+20+years+old;I'm+from+Brazil;Be+Welcome!+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+My+name+is+Lucas+Gabriel;I'm+20+years+old;I'm+from+Brazil;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=lucasoficialph&bg_color=0d1117&color=6245EA&line=6E00EA&point=B80DEA&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=lucasoficialph&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center" style="display: inline-block"><br>
   <img align="center" alt="Lucas-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
