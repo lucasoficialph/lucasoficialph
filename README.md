@@ -19,4 +19,4 @@
 </div>
 
 
-<a><div align="center">![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lucasoficialph&show_icons=true&theme=dark)</div></a>
+<a><div align="center">![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lucasoficialph&show_icons=true&theme=midnight-purple)</div></a>
