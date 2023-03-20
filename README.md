@@ -1,10 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=6D2CE0&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+My+name+is+Lucas+Gabriel;I'm+20+years+old;I'm+from+Brazil;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
-<div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=lucasoficialph&show_icons=true&count_private=true&hide_border=true&title_color=6245EA&icon_color=6245EA&text_color=6245EA&bg_color=0d1117" alt="Lucas_Gabriel github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasoficialph&layout=compact&hide_border=true&title_color=6245EA&text_color=6245EA&bg_color=0d1117" />
-</div>
-
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=lucasoficialph&bg_color=0d1117&color=6245EA&line=6E00EA&point=B80DEA&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center" style="display: inline-block"><br>
@@ -22,3 +17,6 @@
   <a href = "mailto:lucas.oficial.tube@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/lucas-gabriel-733451268" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
+
+
+<a><div align="center">![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lucasoficialph&show_icons=true&theme=dark)</div></a>
